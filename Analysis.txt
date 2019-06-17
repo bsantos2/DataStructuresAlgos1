@@ -1,0 +1,21 @@
+Big O Notation Analysis
+
+Task 0:
+O(c) as getRecord() only 1 item in the list, wherein the input is the index of desired item from the list.
+
+Task 1:
+O(n)
+getAllRecords() function increases linearly, as in it takes n times longer for the algorithm to complete, where n is the length of the list. 
+
+Task 2:
+Task 2 uses the functions from task 1 so for those portions, it’s linear, as in O(n). Going through all the keys in the dictionary to find that caller with max duration of calls is also O(n)
+
+Task 3:
+The newly added step was getAreaCode, which was an O(1) by itself because it only takes one input string.
+
+The next newly added task was to do a for loop to get Bangalore callers. If they were from Bangalore, add the receiver area code if it’s a new one to the array. Also there is a check if the recipient is also from Bangalore. This for loop only processes one input at a time from the list if it meets the criteria and will increase operations linearly for longer input, hence O(n). 
+
+Task 4:
+Sorted is O(n log n)
+Converting a list to a set is O(len(n))
+Lastly, O(n) to print every item.
